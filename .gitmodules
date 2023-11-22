@@ -1,0 +1,3 @@
+[submodule "boards/chipwhisperer-lite/firmware/naeusb"]
+	path = boards/chipwhisperer-lite/firmware/naeusb
+	url = git@github.com:newaetech/naeusb.git
