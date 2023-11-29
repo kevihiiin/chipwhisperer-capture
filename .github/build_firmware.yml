@@ -1,0 +1,24 @@
+name: build firmware
+
+on: push
+
+jobs:
+  Build firmware:
+    name: Build capture firmware
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install compilers
+        run: >- 
+          sudo apt install -y make build-essential gcc-avr avr-libc gcc-arm-none-eabi
+      - name: Build Lite firmware
+        run: |
+          cd boards/chipwhisperer-lite/firmware
+          git submodule update --init naeusb
+          make -j
+      - name: Build Nano firmware
+        run: |
+          cd boards/chipwhisperer-nano/firmware
+          git submodule update --init naeusb
+          make -j
