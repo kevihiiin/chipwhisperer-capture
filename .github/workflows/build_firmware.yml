@@ -3,7 +3,7 @@ name: build firmware
 on: push
 
 jobs:
-  Build firmware:
+  Build_firmware:
     name: Build capture firmware
     runs-on: ubuntu-latest
 
