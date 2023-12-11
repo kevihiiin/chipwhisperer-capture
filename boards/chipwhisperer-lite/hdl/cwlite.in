@@ -17,7 +17,7 @@ Device Family = Spartan6
 Package = tqg144
 Device = xc6slx9
 Speed Grade = -3
-Verilog Include Directories = ../../../hdl|../../../../../openadc/hdl/hdl
+Verilog Include Directories = ../../../hdl|../../../../openadc/hdl/hdl
 
 #This is needed to allow the partial bitstream files to be generated successfully
 Other Map Command Line Options = -convert_bram8
@@ -41,13 +41,13 @@ cwlite_ise/cwlite_interface.v
 setup.v = Setup File
 
 #OpenADC Files
-../../../../openadc/hdl/hdl/openadc_interface.v
-../../../../openadc/hdl/hdl/reg_openadc.v
-../../../../openadc/hdl/hdl/reg_openadc_adcfifo.v
-../../../../openadc/hdl/hdl/trigger_unit.v
-../../../../openadc/hdl/hdl/spartan6/dcm_phaseshift_interface.v
-../../../../openadc/hdl/hdl/spartan6/clock_managment_advanced.v
-../../../../openadc/hdl/hdl/spartan6/dcm_clkgen_load.v
+../../../openadc/hdl/hdl/openadc_interface.v
+../../../openadc/hdl/hdl/reg_openadc.v
+../../../openadc/hdl/hdl/reg_openadc_adcfifo.v
+../../../openadc/hdl/hdl/trigger_unit.v
+../../../openadc/hdl/hdl/spartan6/dcm_phaseshift_interface.v
+../../../openadc/hdl/hdl/spartan6/clock_managment_advanced.v
+../../../openadc/hdl/hdl/spartan6/dcm_clkgen_load.v
 
 #ChipWhisperer Files
 ../../../common/hdl/clockglitch/clockglitch_s6.v

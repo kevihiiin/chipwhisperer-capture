@@ -1,3 +1,3 @@
-..\..\..\..\openadc\hdl\makeise\makeise.py cwlite.in cwlite_ise\cwlite_ise.xise
+..\..\..\openadc\hdl\makeise\makeise.py cwlite.in cwlite_ise\cwlite_ise.xise
 
 pause
