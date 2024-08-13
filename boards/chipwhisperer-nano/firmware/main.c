@@ -87,7 +87,6 @@ int main (void)
 
 	while (true) {
 		//sleepmgr_enter_sleep();
-		cdc_send_to_pc();
 		MPSSE_main_sendrecv_byte();
 				
 	}

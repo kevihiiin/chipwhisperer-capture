@@ -154,7 +154,6 @@ int main(void)
 	// because the USB management is done by interrupt
 	while (true) {
         // if we've received stuff on USART, send it back to the PC
-		cdc_send_to_pc();
 		MPSSE_main_sendrecv_byte();
 	}
 	return 0;
