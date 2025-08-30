@@ -15195,7 +15195,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R81" library="custom-std" deviceset="RES" device="0402-RES" value="5k1">
 <attribute name="OC_DIGIKEY" value="RHM100KCDCT-ND "/>
 </part>
-<part name="J8" library="2171790001" deviceset="2171790001" device=""/>
+<part name="J9" library="2171790001" deviceset="2171790001" device=""/>
 <part name="R84" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5k1"/>
 <part name="R83" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5k1"/>
 </parts>
@@ -21190,8 +21190,8 @@ mounted</text>
 <attribute name="NAME" x="59.69" y="77.2414" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="59.69" y="82.042" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="J8" gate="G$1" x="71.12" y="167.64" smashed="yes" rot="MR0">
-<attribute name="NAME" x="83.82" y="183.642" size="1.778" layer="95" rot="MR0"/>
+<instance part="J9" gate="G$1" x="71.12" y="167.64" smashed="yes" rot="MR0">
+<attribute name="NAME" x="83.82" y="183.388" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="83.82" y="154.178" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R84" gate="G$1" x="104.14" y="165.1" smashed="yes" rot="R90">
@@ -21317,7 +21317,7 @@ mounted</text>
 <wire x1="104.14" y1="160.02" x2="99.06" y2="160.02" width="0.1524" layer="91"/>
 <junction x="104.14" y="160.02"/>
 <junction x="99.06" y="160.02"/>
-<pinref part="J8" gate="G$1" pin="GND"/>
+<pinref part="J9" gate="G$1" pin="GND"/>
 <wire x1="88.9" y1="165.1" x2="93.98" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="165.1" x2="93.98" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="160.02" x2="99.06" y2="160.02" width="0.1524" layer="91"/>
@@ -21671,7 +21671,7 @@ mounted</text>
 <segment>
 <wire x1="88.9" y1="177.8" x2="111.76" y2="177.8" width="0.1524" layer="91"/>
 <label x="111.76" y="177.8" size="1.27" layer="95" xref="yes"/>
-<pinref part="J8" gate="G$1" pin="D+"/>
+<pinref part="J9" gate="G$1" pin="D+"/>
 </segment>
 <segment>
 <pinref part="U12" gate="G$1" pin="PD6"/>
@@ -21683,7 +21683,7 @@ mounted</text>
 <segment>
 <wire x1="88.9" y1="175.26" x2="111.76" y2="175.26" width="0.1524" layer="91"/>
 <label x="111.76" y="175.26" size="1.27" layer="95" xref="yes"/>
-<pinref part="J8" gate="G$1" pin="D-"/>
+<pinref part="J9" gate="G$1" pin="D-"/>
 </segment>
 <segment>
 <pinref part="U12" gate="G$1" pin="PD7"/>
@@ -21695,7 +21695,7 @@ mounted</text>
 <segment>
 <pinref part="C118" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="167.64" x2="88.9" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="J8" gate="G$1" pin="SHLD"/>
+<pinref part="J9" gate="G$1" pin="SHLD"/>
 </segment>
 </net>
 <net name="VCC_TARG" class="2">
@@ -21742,7 +21742,7 @@ mounted</text>
 <pinref part="C119" gate="G$1" pin="2"/>
 <wire x1="129.54" y1="180.34" x2="134.62" y2="180.34" width="0.1524" layer="91"/>
 <junction x="129.54" y="180.34"/>
-<pinref part="J8" gate="G$1" pin="VBUS"/>
+<pinref part="J9" gate="G$1" pin="VBUS"/>
 </segment>
 </net>
 <net name="N$46" class="0">
@@ -21883,14 +21883,14 @@ mounted</text>
 </net>
 <net name="N$67" class="0">
 <segment>
-<pinref part="J8" gate="G$1" pin="CC2"/>
+<pinref part="J9" gate="G$1" pin="CC2"/>
 <pinref part="R84" gate="G$1" pin="2"/>
 <wire x1="88.9" y1="170.18" x2="104.14" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$68" class="0">
 <segment>
-<pinref part="J8" gate="G$1" pin="CC1"/>
+<pinref part="J9" gate="G$1" pin="CC1"/>
 <pinref part="R83" gate="G$1" pin="2"/>
 <wire x1="88.9" y1="172.72" x2="111.76" y2="172.72" width="0.1524" layer="91"/>
 </segment>
